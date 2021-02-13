@@ -1,4 +1,5 @@
-# MyAllProjects
+# GitHub
+
 ##  GetHub for beginners
 
 ## Step 1 
