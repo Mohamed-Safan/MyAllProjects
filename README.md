@@ -1,4 +1,4 @@
-# GitHub
+# 1. GitHub
 
 ##  GetHub for beginners
 
