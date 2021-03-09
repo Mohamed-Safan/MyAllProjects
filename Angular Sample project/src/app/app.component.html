@@ -1,0 +1,53 @@
+<style>
+
+  body{
+
+    background-color: aquamarine;
+  }
+
+  h1{
+    font-weight:bold;
+
+  }
+
+
+
+
+
+
+</style>
+
+<body>
+<mat-toolbar color="black">
+  <mat-toolbar-row>
+    <button mat-icon-button>
+<!--      <mat-icon >home</mat-icon>-->
+    </button>
+    <h1 style = color:bisque>FOOTBALL PREMIER LEAGUE CHAMPIONSHIP </h1>
+
+    <div>
+      <a mat-button [routerLink]="'/gui'"> Team Details </a>
+      <a mat-button [routerLink]="'/pts'"> Sort by points </a>
+      <a mat-button [routerLink]="'/goalscored'"> Sort by goal scored </a>
+      <a mat-button [routerLink]="'/wins'"> Sort by wins </a>
+      <a mat-button [routerLink]="'/search'"> Search Team </a>
+    </div>
+
+
+
+
+
+
+
+
+
+  </mat-toolbar-row>
+
+</mat-toolbar>
+
+
+
+
+<router-outlet></router-outlet>
+
+</body>

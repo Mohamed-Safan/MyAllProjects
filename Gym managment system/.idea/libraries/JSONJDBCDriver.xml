@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="JSONJDBCDriver">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Downloads/JSONJDBCDriver.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/Compressed/java-json.jar.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
