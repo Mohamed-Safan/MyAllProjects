@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ba"
+    tools:context=".HintActivity">
+
+    <ImageView
+        android:id="@+id/identify_1"
+        android:layout_width="172dp"
+        android:layout_height="178dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/carImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/identify_2"
+        android:layout_width="173dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/carImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/identify_3" />
+
+    <ImageView
+        android:id="@+id/identify_3"
+        android:layout_width="173dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/carImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/identify_1" />
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="138dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="584dp"
+        android:text="@string/submit"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="#131212"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_car1"
+        android:layout_width="182dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:ems="10"
+        android:gravity="center"
+
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toEndOf="@+id/identify_1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/editText_car2"
+        android:layout_width="175dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/identify_1"
+        app:layout_constraintTop_toBottomOf="@+id/editText_car1" />
+
+    <EditText
+        android:id="@+id/editText_car3"
+        android:layout_width="178dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toEndOf="@+id/identify_1"
+        app:layout_constraintTop_toBottomOf="@+id/editText_car2"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/textView_correct"
+        android:layout_width="114dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/identify_2"
+        app:layout_constraintTop_toBottomOf="@+id/editText_car3" />
+
+    <TextView
+        android:id="@+id/textView_wrong"
+        android:layout_width="104dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="160dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/button_submit"
+        app:layout_constraintTop_toBottomOf="@+id/editText_car3" />
+
+    <TextView
+        android:id="@+id/marks"
+        android:layout_width="69dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:gravity="center"
+        android:textColor="#090909"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_timer4"
+        android:layout_width="109dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textColor="#090000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_correct" />
+
+    <TextView
+        android:id="@+id/textView_c1"
+        android:layout_width="122dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/identify_1"
+        app:layout_constraintTop_toBottomOf="@+id/editText_car1" />
+
+    <TextView
+        android:id="@+id/textView_c2"
+        android:layout_width="122dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="204dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/identify_1"
+        app:layout_constraintTop_toBottomOf="@+id/editText_car1" />
+
+    <TextView
+        android:id="@+id/textView_c3"
+        android:layout_width="122dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="360dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/identify_1"
+        app:layout_constraintTop_toBottomOf="@+id/editText_car1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

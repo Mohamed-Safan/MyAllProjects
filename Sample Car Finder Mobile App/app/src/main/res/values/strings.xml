@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">WAS CARS</string>
+    <string name="identify_the_car_make">Identify the Car Make</string>
+    <string name="hints">Hints</string>
+    <string name="identify_the_car_image">Identify the Car Image</string>
+    <string name="advanced_level">Advanced Level</string>
+    <string name="identify">Identify</string>
+    <string name="carImage">car image</string>
+    <string name="correct">CORRECT</string>
+    <string name="wrong">WRONG</string>
+    <string name="textview"></string>
+    <string name="textview2"></string>
+    <string name="textview3"></string>
+    <string name="submit">Submit</string>
+    <string name="next">Next</string>
+    <string name="textviewjnkjn">TextViewjnkjn</string>
+    <string name="textview_A"></string>
+    <string name="textview_C"></string>
+    <string name="textview_R"></string>
+    <string name="textview_3"></string>
+
+    <string name="correctly_identify_the_brands">Correctly Identify the Brands</string>
+
+    <string name="car_brand">Car brand</string>
+    <string name="guess_the_car_brand">Guess the car brand</string>
+    <string name="dsh">-----</string>
+    <string name="guess_character">guess_character</string>
+    <string name="countdown">sourcelk</string>
+    <string name="was_cars">WAS CARS</string>
+    <string name="car_make">CAR MAKE</string>
+    <string name="car_image">CAR IMAGE</string>
+    <string name="textValue">TextValue</string>
+    <string name="submit1">submit1</string>
+    <string name="car_brand1">car_brand1</string>
+    <string name="guess_the_word">guess the word</string>
+
+
+    <string-array name="car_names">
+        <item>Audi</item>
+        <item>BMW</item>
+        <item>CHEVROLET</item>
+        <item>HONDA</item>
+        <item>HYUNDAI</item>
+        <item>JAGUAR</item>
+        <item>KIA</item>
+        <item>LAMBORGINI</item>
+        <item>LANDROVER</item>
+        <item>MAZDA</item>
+        <item>MINI</item>
+        <item>NISSAN</item>
+        <item>RENAULT</item>
+        <item>ROLLSROYCE</item>
+        <item>SUZUKI</item>
+        <item>TATA</item>
+        <item>TESLA</item>
+        <item>TOYOTA</item>
+    </string-array>
+</resources>
