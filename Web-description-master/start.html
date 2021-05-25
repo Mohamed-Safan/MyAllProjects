@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title> Quiz</title>
+    
+ 
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="cw.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/logo2.png" alt="logo">
+        <ul class="navbar">
+            <li> <a class="homebtn"  href="Main.html"><span>Home</span></a></li>
+            <div class="dropdown">
+            <li><a class="destbtn" href="#"><span>Destinations</span></a></li>
+            <div class="dropdown-content">
+
+                  <a href="Destinations.html">Sigiriya</a>
+                  <a href="ella.html">Ella</a>
+
+                  <a href="galle.html">Galle</a>
+            </div>
+            </div>
+            <li> <a class="shopbtn"  href="Bussiness.html"><span>Shop</span></a></li>
+            <li> <a class="quizbtn"  href="start.html"><span>Quiz</span></a></li>
+            <li> <a class="aboutbtn"   href="cw1.html"><span>About</span></a></li>
+            
+        </ul>
+    </header>
+
+
+
+    <div class="start">
+        <div class="welcome_text">
+	<div class="Name">
+		<div id="nme">
+		<p>Please enter Your Name:</p>
+		</div>
+		</div>
+            <form class="welcome_start" name="welcome_form" onsubmit="submitForm(event)">
+                <input type="text" name="name">
+                <button>Start..</button>
+			
+            </form>
+        </div>
+ <a  style="position:relative;top:35%;left:-900px;"class="editor" href="details.html" ><span>Editor</span></a>
+                    
+     </div>
+
+
+
+
+    <script> 
+	function submitForm(e) {
+    e.preventDefault();
+    let name = document.forms["welcome_form"]["name"].value;
+  
+    sessionStorage.setItem("name", name);
+  
+    location.href = "quiz.html";
+  }
+	
+    </script>
+
+   
+</body>
+</html>

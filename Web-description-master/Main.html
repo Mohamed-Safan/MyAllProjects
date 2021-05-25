@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    
+        <!-- linking the external style sheet and font from internet -->
+    <link rel="stylesheet" href="cw.css" type="text/css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Meddon&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+	
+ 
+   <title>HEAVEN WALKS.lk</title>  <!--  setting the page title-->
+
+    <!--script used for validation of form that is used to get feedbacks  -->
+   <script>  
+         function myFunction() { //function used to validate
+            var popup = document.getElementById();
+            popup.classList.toggle("show");
+        }
+        
+        function validateForm() { //getting the user inputs to a variable to produce the out put 
+            var name = document.forms["myForm"]["name"].value;
+            var email = document.forms["myForm"]["email"].value;
+            var comment = document.forms["myForm"]["comment"].value;
+            var rating = document.forms["myForm"]["rating"].value;
+            if (name == "") { // function for alert box pop up if name is not entered
+            alert("Name must be filled out");
+
+            return false;
+            }
+            if (email == "") {// function for alert box pop up if email is not entered
+            alert("E-Mail must be filled out");
+            
+                return false;
+            }
+            if (comment == "") { // function for alert box pop up if comment is not entered
+            alert("please enter your feedback");
+            
+                return false;
+            }
+            if (rating == "") { // function for alert box pop up if user didnt make a rating
+            alert("please rate our site");
+            
+                 return false;
+            }
+            // thanks note when user gives a feedback withtheir detals in it
+            alert("Hello, "+ name+". Thank you for your Feedback! You have rated our website to a level of "+rating+" stars. Your Feedback was '"+comment+ "'")
+
+            
+        }
+
+    </script>
+    <script>
+        //Get the button
+        var topbtn = document.getElementById("top");
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+</head>
+<body>
+
+    <header>  <!-- header used i main page as well as in evry other pages with links look like buttons to move around -->
+        <img class="logo" src="img/weblogo.png" alt="logo">
+        <ul class="navbar">
+            <li> <a class="homebtn"  href="Main.html"><span>Home</span></a></li>  <!-- setting the relevent page to navigate when clicked  -->
+            <div class="dropdown">
+                <li><a class="destbtn" href="#"><span>Destinations</span></a></li>
+                <div class="dropdown-content">
+                    <a href="Destinations.html">Sigiriya</a>
+                    <a href="ella.html">Ella</a>
+                       
+                    <a href="galle.html">Galle</a>
+                </div>
+            </div>
+            <li> <a class="shopbtn"  href="Bussiness.html"><span>Shop</span></a></li>
+            <li> <a class="quizbtn"  href="start.html"><span>Quiz</span></a></li>
+            <li> <a class="aboutbtn"   href="cw1.html"><span>About</span></a></li>
+            
+        </ul>
+    </header>
+
+    <DIV id=slider> <!-- images for slide show used in main page -->
+        <figure>
+            <img src="img/bea.jpg" alt="" class="image1">
+            <img src="img/ella4.jpg" alt="">
+            <img src="img/sigiiya2.jpg" alt="">
+            <img src="img/sigiriya2.png" alt="">
+            <img src="img/ella1.jpg" alt="">
+        </figure>
+
+    </DIV>
+    <div class="transbox">  <!-- welcome note in the main page -->
+        <h1  class="heavenwalks">Welcome to HEAVEN WALKS.lk</h1>
+        <p class="welcome">HEAVEN WALKS.lk is the largest travel guidence providing agent in Sri Lanka who provide travel assistance to the foriegners who come on tours to Sri Lanka. Its a great pleasure to have you here as a part of Heaven walks.   </p>
+    </div>
+
+    <div class ="about">
+        <div class="services">  <!-- letting know the packages or places we giude -->
+            <h1>Heaven Walks.lk provides you the best experiences at,</h1><br>
+            <ul>
+                
+                <ul><!--  images as buttons to get useers involved in-->
+                    <a href="Destinations.html"><img src="img/sigiiya2.jpg"></a>
+                
+                
+                <a href="ella.html"><img src="img/ella5.jpg"></a>
+                
+                
+                
+                <a href="galle.html"><img src="img/gal.jpg"></a>
+            </ul>
+            <div class="nametag">
+                <ul>Sigirya</ul><!-- relevent names for the buttons  -->
+                <ul>Ella</ul>
+                <ul>Galle</ul>
+            </div><br><br>
+            <h1>to enjoy the experiences,<br> Connect with HEAVEN WALKS.lk</h1>
+        </div>
+    <Div class="contact"> <!-- contact details  -->
+        <h3>Contact us,</h3><br>
+        <h2> <b> Heaven Walks.lk</b> </h2><br><br>
+        <h3>Address: No 28,Galle Rd,<br> Dehiwala. <br>
+        Contact No : +94 011 4582 4129 <br>
+        E-Mail: info@heavenWalks.lk </h3><br><br>
+
+        <button class="socialmedia"> <!-- social media buttons for our pages -->
+            <img src="img/instagram.png"/>
+        </button>
+        <button class="socialmedia">
+            <img src="img/facebook.png"/>
+        </button>
+        <button class="socialmedia">
+            <img src="img/email.png"/>
+        </button>
+        <button class="socialmedia">
+            <img src="img/tripadvisor.png"/>
+        </button>
+    </Div>
+</div>
+    
+<center>
+    <div class="comBox"> <!-- comment box  -->
+        <form name="myForm" onsubmit="return validateForm()" method="post">
+            <h3 class="comhead">We value your feedbacks,So don't hesitate to make one</h3><br>
+            <!-- labels and in put fields to get feedbacks -->
+            <label for="name" class="namelabel">Name:</label><br>
+            <input type="text" class="nameinput" name="name" > <br>
+            <label for="email" class="emaillabel">E-Mail:</label><br>
+            <input type="text" class="emailinput" name="email"><br>
+            <label for="comment"class="comlabel">Comment :</label><br>
+            <input type="text" class="comtext" name="comment" > <br>
+            
+            <span class="star-rating"><!-- radio buttons to rate  -->
+                <input type="radio" name="rating" value="1"><i></i>
+                <input type="radio" name="rating" value="2"><i></i>
+                <input type="radio" name="rating" value="3"><i></i>
+                <input type="radio" name="rating" value="4"><i></i>
+                <input type="radio" name="rating" value="5"><i></i>
+              </span>
+              <br><br><br>
+              
+            <button class="submitbtn">submit</button>  <!-- button to submit the feedback -->
+        </form>
+    </div>
+</center>
+
+    <div>
+            <!--few of the feedbacks displayed in our main page as demo to make users do it  -->
+        <h3 class="feedbackhead">Feedbacks</h3>
+        <ul class="feedbacks">
+        <ul class="feedback1">
+            <h1 class="comma">"</h1>
+            <p >Thank you HEAVEN WALKS.lk for providing us a wonderful experience in Sri Lanka.Keep it up</p>
+            <h4>-Andrew Iniesta</h4>
+        </ul>
+
+        <ul class="feedback2">
+            <h1 class="comma">"</h1>
+            <p> It was a amazing Sri lanka with HEAVEN WALKS.lk . Really a great job youa ll are doing. Keep going</p>
+            <h4>-Emma Watson</h4>
+        </ul>
+        <ul class="feedback3">
+            <h1 class="comma">"</h1>
+            <p>Thank you heaven walk people for your great giudence and hospitality. Hoping for another tour with you all</p>
+            <h4>-Micheal Anderson</h4>
+        </ul>
+        <ul class="feedback4">
+            <h1 class="comma">"</h1>
+            <p>Than you heaven walks for making our days in SL a great.</p>
+            <h4>-Peter Werth</h4>
+        </ul>
+        </ul>
+    </div>
+
+    
+
+    <div class="footer">
+        <center>
+        <img src="img/logo2.png" alt="">
+        </center>
+    <button onclick="topFunction()" class="top" title="Go to top">Top</button>
+    <a class="editor" href="editors.html" ><span >Editor</span></a><!-- editors page button -->
+    </div>
+
+   
+    
+    
+</body>
+</html>

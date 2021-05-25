@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Heaven Walks</title>
+        <link rel="stylesheet" href="External.css">
+        <link rel="stylesheet" href="cw.css">
+
+        
+        
+    </head>
+    
+    <body >
+        <header>
+            <img class="logo" src="img/weblogo.png" alt="logo">
+            <ul class="navbar">
+                <li> <a class="homebtn"  href="Main.html"><span>Home</span></a></li>
+                <div class="dropdown">
+                <li><a class="destbtn" href="#"><span>Destinations</span></a></li>
+                <div class="dropdown-content">
+                      <a href="Destinations.html">Sigiriya</a>
+                      <a href="ella.html">Ella</a>
+                      <a href="galle.html">Galle</a>
+                </div>
+                </div>
+                <li> <a class="shopbtn"  href="Bussiness.html"><span>Shop</span></a></li>
+                <li> <a class="quizbtn"  href="start.html"><span>Quiz</span></a></li>
+                <li> <a class="aboutbtn"   href="cw1.html"><span>About</span></a></li>
+                
+            </ul>
+        </header>
+        
+
+        
+
+        <section class="header">
+            <div>
+
+                <button role="button" class="decrease-btn" id ="down"> Font-</button>
+                <button role="button" class="increase-btn" id="up">Font+</button> 
+
+
+                
+                <h1>The Lion Rock - Sigiriya</h1>
+                <p>Explore the unknown - By Saadh Jawwadh</p>
+                
+                
+            </div>
+        </section>
+
+        <section class="About">
+
+            <div class="container" id = "fontsize">
+
+                <script>
+                    var currentFsize = window.getComputedStyle(document.getElementById("fontsize"),null).fontSize;
+        
+                document.getElementById("up").addEventListener("click",function(){
+                    var newFsize = parseInt(currentFsize) + 2;
+                    document.getElementById('fontsize').style.fontSize = newFsize + 'px';
+                    currentFsize = newFsize;
+                });    
+        
+                     document.getElementById("down").addEventListener("click",function(){
+                    var newFsize = parseInt(currentFsize) - 2;
+                    document.getElementById('fontsize').style.fontSize = newFsize + 'px';
+                    currentFsize = newFsize;
+                });    
+                </script>
+                
+                <img src="img/sigiriya1.jpg">
+                <h1>Thinks to know</h1>
+                <p>Sigiriya is one of the most valuable historical monuments of Sri Lanka.</p>
+                <p>Referred by locals as the Eighth Wonder of the World this ancient palace and fortress complex has significant archaeological importance
+                <p>The palace is located in the heart of the island between the towns of Dambulla and Habarane on a massive rocky plateau 370 meters above the sea level.and attracts thousands of tourists every year. </P>
+                
+                <img src="img/Sigiriya-Claws.jpg">
+                <h1>Why it is a Architectural monument?</h1>
+                <p>The main entrance is located in the northern side of the rock.
+                    It was designed in the form of a huge stone lion, whose feet have survived up to today but the upper parts of the body were destroyed.Thanks to this lion the palace was named Sigiriya. The term Sigiriya originates from the word Sihagri, i.e. Lion Rock.</p>
+
+                <img src="img/sigirya3.jpg">
+                <h1>Eye catching Stroke Paintings</h1>
+                <p>The western wall of Sigiriya was almost entirely covered by frescoes, created during the reign of Kasyapa. Eighteen frescoes have survived to this day.
+                    The frescoes are depicting nude females and are considered to be either the portraits of Kasyapa's wives and concubines or priestess performing religious rituals.</p>
+
+                <img src="img/SigiriyaMWall.jpg">
+                <h1>The amazing Mirror walls</h1>
+                <p>One of the most striking features of Sigiriya is its Mirror wall.In the old days it was polished so thoroughly that the king could see his reflection in it.
+                    The Mirror wall is painted with inscriptions and poems written by the visitors of Sigiriya.</p>
+                
+                <p>The palace and fortress complex is recognized as one of the finest examples of ancient urban planning. Considering the uniqueness of Sigiriya UNESCO declared it a World Heritage site in 1982. Sigiriya is an unmatched combination of urban planning, water engineering, horticulture and arts.</p> <br>
+            </div>
+
+        </section>
+
+            <center>
+            <div class="extrabtn">
+
+                <h2>Explore more walk destinations...</h2> <br>
+                <a class="ex1" href="ella.html">Ella</a>
+                <a class="ex2" href="galle.html">Galle</a>
+            </div>
+            </center>  
+
+            <a class="top" href="#" ><span >top</span></a>
+            <a class="editors" href="Student1_Editors.html" ><span >Editor</span></a>
+
+        </div>
+        <div class="footer">
+            <center>
+            <img src="img/logo2.png" alt="">
+            </center>
+            <a class="top" href="#" ><span >top</span></a>
+        </div>
+    </body>
+</html>

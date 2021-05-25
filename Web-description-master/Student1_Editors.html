@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Heaven Walks</title>
+        <link rel="stylesheet" href="External.css">
+        <link rel="stylesheet" href="cw.css">
+        
+        
+    </head>
+    
+    <body >
+        <header>
+            <img class="logo" src="img/weblogo.png" alt="logo">
+            <ul class="navbar">
+                <li> <a class="homebtn"  href="Main.html"><span>Home</span></a></li>
+                <div class="dropdown">
+                <li><a class="destbtn" href="#"><span>Destinations</span></a></li>
+                <div class="dropdown-content">
+                      <a href="Destinations.html">Sigiriya</a>
+                      <a href="ella.html">Ella</a>
+                      <a href="galle.html">Galle</a>
+                </div>
+                </div>
+                <li> <a class="shopbtn"  href="Bussiness.html"><span>Shop</span></a></li>
+                <li> <a class="quizbtn"  href="start.html"><span>Quiz</span></a></li>
+                <li> <a class="aboutbtn"   href="cw1.html"><span>About</span></a></li>
+                
+            </ul>
+        </header>
+        
+
+        
+
+        <section class="header">
+            <div>
+
+                <button role="button" class="decrease-btn" id ="down"> Font-</button>
+                <button role="button" class="increase-btn" id="up">Font+</button> 
+
+
+                
+                <h1>Editor's page - Saadh Jawwadh</h1>
+                <p>Student 01</p>
+                
+                
+            </div>
+        </section>
+
+        <section class="About">
+
+            <div class="container" id = "fontsize">
+
+                <script>
+                    var currentFsize = window.getComputedStyle(document.getElementById("fontsize"),null).fontSize;
+        
+                document.getElementById("up").addEventListener("click",function(){
+                    var newFsize = parseInt(currentFsize) + 2;
+                    document.getElementById('fontsize').style.fontSize = newFsize + 'px';
+                    currentFsize = newFsize;
+                });    
+        
+                     document.getElementById("down").addEventListener("click",function(){
+                    var newFsize = parseInt(currentFsize) - 2;
+                    document.getElementById('fontsize').style.fontSize = newFsize + 'px';
+                    currentFsize = newFsize;
+                });    
+                </script>
+                
+                <img src="img/saadh.jpg">
+                <h1>Student Details</h1>
+                <p>Name: Saadh Jawwadh</p>
+                <p>UoW ID: w1790792</p>
+                <p>Student ID: 20191715 </P>
+                
+                <img src="img/Task_Details1.jpg">
+                <h1>These are the allocated Tasks for me</h1>
+                
+                <p>Mail:<span class="Mail"><a href="mailto:Saadh2019175@iit.ac.lk">Saadh2019175@iit.ac.lk</a></span></p>
+                
+            </div>
+
+        </section>
+        <a class="top" href="#" ><span >top</span></a>
+        
+    </body>
+</html>

@@ -1,0 +1,228 @@
+*
+{
+    padding: 0;
+    margin: 0;   
+}
+/* For presentation Page*/
+.present{
+    height: 100%;
+    background-image:url(img/present.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 10px;
+    text-align: center;
+    color: black;
+}
+
+/*Destination Page*/
+body
+{
+    /*height: 100%;
+    background-image:url(img/BG.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;*/
+    padding-top: 0px;
+    text-align: center;
+    background-color:#a4d4eb;
+    font-family: sans-serif;
+   
+    
+}
+
+.increase-btn{
+    position: fixed;
+    bottom: 120px; 
+    right: 50px;
+    width: 90px;
+    padding: 8px 0;
+    outline: none;
+    border: 2px solid black;
+    
+    background-color: #02457a;
+    color:wheat;
+    float: right;
+    
+
+}
+.decrease-btn{
+    position: fixed;
+    bottom: 80px; 
+    right: 50px;
+    width: 90px;
+    padding: 8px 0;
+    outline: none;
+    border: 2px solid black;
+    
+    background-color: #02457a;
+    color:wheat;
+    float: right;
+   
+}
+
+
+.header img
+{   
+    width: 200px;
+    float: left;
+}
+
+.header{
+    /*background-image: url(img/sigirya3.jpg);*/
+}
+
+.header h1{
+    padding-top: 5px;
+    padding-bottom: 0;
+    font-size: 55px;
+    color:black;
+    font-family: sans-serif;
+}
+.header p{
+    margin: 10px 0px;
+    color: black;
+}
+.About h1{
+    padding-top: 5px;
+    padding-bottom: 0;
+    font-size: 20px;
+}
+.About p{
+    margin: 10px 300px;
+    text-align: center;
+}
+.About img{
+    width: 50%;
+    
+}
+
+
+/* Bussiness page */
+.BBody{
+    background-color:#a4d4eb;
+    font-family: sans-serif;
+}
+
+.Places{
+    padding: 100px 0;
+}
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+.D-img img{
+    width: 100%;
+}
+.price{
+    width: 50px;
+    height: 50px;
+    background: rgba(10, 141, 69, 0.87);
+    color: #f4f6f0;
+    font-weight: 500;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+    position: absolute;
+    left: 20px;
+    bottom: -20px;
+}
+.D-img{
+    position: relative;
+}
+.rating{
+    padding: 3px;
+    float: right;
+    background: rgb(184, 240, 201);
+    bottom: -1px;
+    right: 0;
+    position: absolute;
+
+}
+.Places .fa{
+    font-size: 15px;
+    color: rgba(2, 61, 29, 0.87);
+}
+
+.Details{
+    padding: 20px;
+    text-align: justify;
+}
+
+.Details.fa{
+    margin-right: 30px;
+}
+.book
+{
+    color:wheat;  
+    background-color: #001b4b;
+}
+.book
+{ 
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: wheat;
+    font-size: 12px;
+    
+    box-shadow: -2px -2px 8px #97cadb,
+                -2px -2px 12px #01babe,
+                inset 2px 2px 4px #02457a, 
+                2px 2px 4px rgba(0,0,0,15);
+     
+
+}
+.book:hover{
+    box-shadow: inset -2px -2px 8px #97cadb,
+                inset -2px -2px 12px #01babe,
+                inset 2px 2px 4px #02457a, 
+                inset 2px 2px 4px rgba(0,0,0,15);
+}
+.book:hover span{
+    display: inline-block;
+    transform: scale(0.98);
+}
+.comBox{
+    
+    position: relative;
+    background-color: white;
+    max-width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 30px;
+    top: 50px;
+    border-radius: 10px;
+ 
+ }
+ .comBox h3{
+    
+    color: #001b4b;
+     
+ }
+ .Bform label{
+     font-size: 20px;
+     font-style: oblique;
+
+    
+ }
+ .Bform input{
+     background-color: #d4aff7;
+     color: rgb(29, 1, 58);
+ }
+ .Mail{
+     font-style: italic;
+     font: outline;
+     background-color: #02457a;  
+    
+ }
+ .editors{
+    position: relative; 
+    color:wheat;  
+    background-color: #001b4b;
+    margin: 30px;
+ }
+    

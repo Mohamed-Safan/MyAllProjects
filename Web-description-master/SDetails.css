@@ -1,0 +1,131 @@
+body
+{
+	background-color:#a4d4eb;
+	overflow-x: hidden;
+}
+
+.stu1
+  {
+ position:relative;
+ top:200px;
+ left:50px;
+    width:300px;
+    height:300px;
+    float:left;
+    background-size:100%;
+    background-position:center;
+    transition:0.5s;
+    overflow:hidden;
+    border-radius:8px;
+    box-shadow:0 0 12px #000;
+	
+  }
+  
+  
+.stu2
+  {
+ position:relative;
+ top:200px;
+ left:150px;
+    width:300px;
+    height:300px;
+    float:left;
+    background-size:100%;
+    background-position:center;
+    transition:0.5s;
+    overflow:hidden;
+    border-radius:8px;
+    box-shadow:0 0 12px #000;
+  }
+
+.stu3
+  {
+ position: relative;;
+ top:200px;
+ left:250px;
+    width:300px;
+    height:300px;
+    float:left;
+    background-size:100%;
+    background-position:center;
+    transition:0.5s;
+    overflow:hidden;
+    border-radius:8px;
+    box-shadow:0 0 12px #000;
+  }
+
+.saadhd
+{
+	position: absolute;;
+	left:70px;
+	top:45%;
+	color:white;
+	z-index:1;
+	opacity:0;
+	transition:.3s;
+	 font-weight:bold;
+	 background:black;
+
+	  border: 10px dotted white;
+}
+.ajmd
+{
+	position: absolute;;
+	left:470px;
+	top:45%;
+	color:white;
+    z-index:1;
+	opacity:0;
+		transition:.3s;
+		 font-weight:bold;
+		  background:black;
+		   border: 10px dotted white;
+}
+
+.safand
+{
+	position: absolute;;
+	left:870px;
+	top:45%;
+	color:white;
+	z-index:1;
+	opacity:0;
+		transition:.0.5s;
+		 font-weight:bold;
+		  background:black;
+		   border: 10px dotted white;
+	 
+}	 
+.stu1:hover
+{
+	filter:blur(3px) brightness(70%);
+	
+}
+
+.stu2:hover
+{
+	filter:blur(3px) brightness(70%);
+}
+
+.stu3:hover
+{
+	filter:blur(3px) brightness(70%);
+}
+
+.saadhd:hover 
+{
+	opacity:1;
+}
+.ajmd:hover
+{
+	opacity:1;
+}
+.safand:hover
+{
+	opacity:1;
+}
+
+
+
+
+

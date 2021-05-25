@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	
+   
+	
+    <title>JavaScript Quiz</title>
+    
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="cw.css">
+	
+	
+	
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/logo2.png" alt="logo">
+        <ul class="navbar">
+            <li> <a class="homebtn"  href="Main.html"><span>Home</span></a></li>
+            <div class="dropdown">
+            <li><a class="destbtn" href="#"><span>Destinations</span></a></li>
+            <div class="dropdown-content">
+                  <a href="Destinations.html">Sigiriya</a>
+                  <a href="ella.html">Ella</a>
+                  <a href="galle.html">Galle</a>
+            </div>
+            </div>
+            <li> <a class="shopbtn"  href="Bussiness.html"><span>Shop</span></a></li>
+            <li> <a class="quizbtn"  href="start.html"><span>Quiz</span></a></li>
+            <li> <a class="aboutbtn"   href="cw1.html"><span>About</span></a></li>
+            
+        </ul>
+    </header>
+    <div class="start">
+        <div>
+           <i class="fas fa-award award_icon"></i>
+		   
+           <h3 class="username">well done! <span class="name"></span></h3>
+		   
+           <p class="userpoints">Your Points <span class="points"></span></p>
+		   
+         <p class="usertime"> Time taken <span class="time_taken"></span></p>
+		 
+		 	  <br>
+		 <br>
+		 
+		 <p class ="answers">Q1. In which district does the Ella city is located?  : correct answer is "Badulla"</p>
+		 <br>
+		  <p class ="answers">Q2. What know as the Lion Fortress? :  correct answer is "Sigiriya"</p>
+		  <br>
+		   <p class ="answers">Q3. What Is The Tourist Attraction Place In Galle?, correct answer is : "Jungle Beach",</p>
+		   <br>
+		    <p class ="answers">Q4. Which historic story has links with ella?, correct answer is: "Ravana stories", </p>
+            <br>			
+			<p class ="answers">Q5 WWho built the Sigiriya? ,correct answer is: "king Kashyapa I",. </p>
+            <br>			 
+			 <p class ="answers">Q6.In which Province does the Galle District is located?: correct answer is: "Southern Province" </p> 
+            <br>			
+			<p class ="answers">Q7.What is the 8th wonder of Srilanka?:  correct answer is: "Sigiriya" </p>
+             <br>	   
+			   <p class ="answers">Q8. Which waterfall is located near ella?: ,correct answer is: "Ravana Falls"</p>
+              <br>	
+	<p class ="answers">Q9. What is the height of the Sigiriya? , correct answer is: "200m" </p>
+               <br>
+				  <p class ="answers">Q10. In which city does the Koggala Beach is located?: ,correct answer is: "Galle" </p>
+		 
+        </div>
+		 <a  style="position:relative;top:35%;left:-900px;"class="editor" href="details.html" ><span>Editor</span></a>
+    </div>
+	
+	
+	
+
+
+      
+        <script>
+		var user_name = sessionStorage.getItem("name");
+var user_points = sessionStorage.getItem("points");
+var user_time = sessionStorage.getItem("time");
+document.querySelector("span.name").innerHTML = user_name;
+document.querySelector("span.points").innerHTML = user_points;
+document.querySelector("span.time_taken").innerHTML = user_time;
+
+
+		
+		
+        </script>
+        <a class="top" href="#" ><span >top</span></a>
+      
+</body>
+
+</html>

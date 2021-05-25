@@ -1,0 +1,294 @@
+*
+{
+    padding: 0;
+    margin: 0;   
+}
+body
+{
+background-color: #949e80;
+width: 1520px;
+overflow-x: hidden;
+}
+
+
+.header{
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+    background-color: #001b4b;
+    grid-row: 1;
+    width: 100%;
+   
+}
+.logo{
+    position: relative;
+    top:10%;
+	left:-15px;
+    margin-left: 0;
+    width: 70%;
+    height: 20%;
+    max-width: 250px;
+    max-height: 80px;
+    grid-row: 1;
+    grid-column: 1;
+
+}
+
+.navbar li{
+    display: inline-block;   
+}
+
+
+.top{
+    position: fixed;
+    bottom: 40px; 
+    right: 50px;
+    color:wheat;  
+    background-color: #001b4b; 
+}
+.quizbtn{
+    position: relative;
+    bottom: 20px;
+    right: 30px;
+}
+
+.aboutbtn{
+    position: relative;
+    bottom: 20px;
+    right: 25px;
+}
+.shopbtn{
+    position: relative;
+    right: 35px;
+    bottom: 20px;
+}
+.destbtn{
+    position: relative;
+    right: 40px;
+    bottom: 20px;
+}
+.homebtn{
+    position: relative;
+    right: 45px;
+    bottom: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: initial;
+    background-color: #f1f1f1;
+    min-width: 170px;
+    right: 40px;
+    
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+  }
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+    position: relative;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    min-width: 130px;
+} 
+a:hover{
+    box-shadow: inset -2px -2px 8px #97cadb,
+                inset -2px -2px 12px #01babe,
+                inset 2px 2px 4px #02457a, 
+                inset 2px 2px 4px rgba(0,0,0,15);
+}
+a:hover span{
+    display: inline-block;
+    transform: scale(0.98);
+}
+
+.start
+{
+    background-image: url("img/gal.jpg");
+    height: 690px;
+    width: auto;
+  
+   }
+
+
+
+h1{
+
+position: relative;
+top:100px;
+left: 30%;
+font-size: 2cm;
+
+}
+
+
+
+h3
+
+{
+position: absolute;
+left: 100px;
+top: 800px;
+font-size: 8mm;
+}
+
+p{
+    position: absolute;
+    left: 100px;
+    top: 850px;
+    }
+
+
+h2
+
+{
+position: absolute;
+left: 400px;
+top: 980px;
+font-size: 1.4cm;
+ text-decoration: underline;
+}
+
+mn{
+
+    position: relative;
+    left: 100px;
+    top: 200px;
+    font-size: 2cm;
+
+}
+
+img
+{
+position: relative;
+top:300px;
+left:200px;
+height: 300px;
+width: 300px;
+
+
+}
+
+p1
+
+{
+position: relative;
+top: 350px;
+left: 200px;
+
+
+}
+h5
+{
+position: relative;
+top:400px;
+font-size: 7mm;
+left: 200px;
+}
+
+ima
+{
+    position: relative;
+    top:140px;
+    left:7px;
+    height: 300px;
+    width: 300px;
+
+}
+
+p2
+{
+    position: relative;
+    top:340px;
+    left:200px;
+}
+
+lgt
+{
+    position: relative;
+    left: 7px;
+top: 130px;
+
+
+}
+
+kj
+{
+  position: relative;
+  top:160px;
+left:7px;
+height: 300px;
+    width: 300px;
+}
+p3
+{
+position: relative;
+top:500px;
+left:200px;
+
+
+}
+hbr
+{
+    position: relative;
+    left: 7px;
+top: 300px;
+}
+
+sa
+{
+
+    position: relative;
+    top:160px;
+  left:7px;
+  height: 300px;
+      width: 300px;
+}
+
+
+kog
+{
+position: relative;
+left: 7;
+top:450px;
+}
+
+da
+{
+position: relative;
+top:150px;
+left:7px;
+height: 300px;
+    width: 300px;
+}
+
+
+.edit {
+	
+	position:relative;
+	top:1000px;
+	left:1200px;
+	height:40px;
+	width:100px;
+	background-color:#001b4b ;
+	color:wheat;
+}
